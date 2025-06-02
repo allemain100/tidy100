@@ -8,8 +8,11 @@ const nextConfig = {
   // Optionally, add any other Next.js config below
   reactStrictMode: false,
   trailingSlash: true,
-  assetPrefix: isProd ? '/<your-repository-name>/' : '',
-  basePath: isProd ? '/<your-repository-name>' : '',
+  images: {
+    unoptimized: true,
+  },
+  assetPrefix: isProd ? '/tidy100/' : '',
+  basePath: isProd ? '/tidy100' : '',
   output: 'export',
 };
 

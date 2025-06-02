@@ -1,4 +1,5 @@
-const withMDX = require("@next/mdx")();
+// const withMDX = require("@next/mdx")();
+import withMDX from "@next/mdx";
 
 /** @type {import('next').NextConfig} */
 const isProd = process.env.NODE_ENV === 'production';
@@ -18,4 +19,8 @@ const nextConfig = {
 
 // module.exports = nextConfig
 
-module.exports = withMDX(nextConfig);
+// module.exports = withMDX(nextConfig);
+//const withMDX = createMDX({
+
+//});
+export default withMDX(nextConfig);

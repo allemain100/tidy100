@@ -33,7 +33,9 @@ jobs:
         run: npx next build
 
       - name: List files
-        run: ls -la # or use tree . for a tree like structure
+        working-directory: ./out
+        run: |
+          ls -la
 
       - name: Upload artifact 📡
         uses: actions/upload-pages-artifact@v3

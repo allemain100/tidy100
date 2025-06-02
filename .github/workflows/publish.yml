@@ -33,7 +33,7 @@ jobs:
         run: npx next build
 
       - name: List files
-        working-directory: out
+        working-directory: .
         run: |
           ls -la
 

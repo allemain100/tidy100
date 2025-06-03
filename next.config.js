@@ -12,8 +12,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  assetPrefix: isProd ? '/tidy100/' : '',
-  basePath: isProd ? '/tidy100' : '',
+  assetPrefix: isProd ? '/pcr100/' : '',
+  basePath: isProd ? '/pcr100' : '',
   output: 'export',
 };
 

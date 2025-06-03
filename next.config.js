@@ -13,7 +13,7 @@ const nextConfig = {
     unoptimized: true,
   },
   assetPrefix: isProd ? '/' : '',
-  basePath: isProd ? 'pcr.allemain.com/' : '',
+  basePath: isProd ? '/' : '',
   output: 'export',
 };
 

@@ -12,7 +12,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  assetPrefix: isProd ? 'pcr.allemain.com/' : '',
+  assetPrefix: isProd ? 'https://pcr.allemain.com/' : '',
   basePath: isProd ? '' : '',
   output: 'export',
 };

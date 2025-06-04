@@ -1,11 +1,11 @@
 import Image from 'next/image'
-import FeaturesImage01 from '@/public/images/features-home-3-01.jpg'
-import FeaturesImage02 from '@/public/images/features-home-3-02.jpg'
-import FeaturesImage03 from '@/public/images/features-home-3-03.jpg'
+import FeaturesImage01 from '@/public/images/342x342.svg'
+import FeaturesImage02 from '@/public/images/342x342.svg'
+import FeaturesImage03 from '@/public/images/342x342.svg'
 
 export default function FeaturesHome03() {
   return (
-    <section className="relative">
+    <section className="relative" id="posts">
 
       {/* Dark background */}
       <div className="absolute inset-0 bg-slate-900 pointer-events-none -z-10 [clip-path:polygon(0_0,_5760px_0,_5760px_calc(100%_-_352px),_0_100%)] h-96 md:h-auto md:mb-64" aria-hidden="true"></div>
@@ -15,7 +15,7 @@ export default function FeaturesHome03() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 font-playfair-display text-slate-100">Simplify operating and manage with transparency</h2>
+            <h2 className="h2 font-playfair-display text-slate-100">Latest Posts</h2>
           </div>
 
           {/* Section content */}
@@ -35,9 +35,9 @@ export default function FeaturesHome03() {
                 </div>
               </a>
               <h3 className="h4 font-playfair-display mb-2">
-                <a className="text-slate-800 hover:underline hover:decoration-blue-100" href="#0">Advanced Features</a>
+                <a className="text-slate-800 hover:underline hover:decoration-blue-100" href="#0">Title / Date</a>
               </h3>
-              <p className="text-lg text-slate-500">Lorem ipsum is placeholder text used in the graphic, print, and publishing for previewing layouts.</p>
+              <p className="text-lg text-slate-500">Description...</p>
             </article>
 
             {/* 2nd article */}
@@ -54,9 +54,9 @@ export default function FeaturesHome03() {
                 </div>
               </a>
               <h3 className="h4 font-playfair-display mb-2">
-                <a className="text-slate-800 hover:underline hover:decoration-blue-100" href="#0">Advanced Features</a>
+                <a className="text-slate-800 hover:underline hover:decoration-blue-100" href="#0">Title / Date</a>
               </h3>
-              <p className="text-lg text-slate-500">Lorem ipsum is placeholder text used in the graphic, print, and publishing for previewing layouts.</p>
+              <p className="text-lg text-slate-500">Description...</p>
             </article>
 
             {/* 3rd article */}
@@ -73,9 +73,9 @@ export default function FeaturesHome03() {
                 </div>
               </a>
               <h3 className="h4 font-playfair-display mb-2">
-                <a className="text-slate-800 hover:underline hover:decoration-blue-100" href="#0">Advanced Features</a>
+                <a className="text-slate-800 hover:underline hover:decoration-blue-100" href="#0">Title / Date</a>
               </h3>
-              <p className="text-lg text-slate-500">Lorem ipsum is placeholder text used in the graphic, print, and publishing for previewing layouts.</p>
+              <p className="text-lg text-slate-500">Description...</p>
             </article>
 
           </div>

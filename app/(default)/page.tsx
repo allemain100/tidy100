@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Home - Tidy',
-  description: 'Page description',
+  title: 'Philadelphia Cup Regatta 2025 - Liberty Sailing Club',
+  description: 'Join us in celebrating the return of the Philadelphia Cup, the ultimate sailing regatta uniting clubs across the region! Liberty Sailing Club is taking the helm as the organizing club, and we would love to have you as part of this event.',
 }
 
 import Hero from '@/components/hero-home'
@@ -16,13 +16,21 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <FeaturesBlocks />
-      <Features />
       <Features02 />
-      <Features03 />
-      <Target />
-      <PricingSection />
       <Cta />
+      <Features />
+
+      <Features03 />
+
+
+      {/*<Hero />*/}
+      {/*<FeaturesBlocks />*/}
+      {/*<Features />*/}
+      {/*<Features02 />*/}
+      {/*<Features03 />*/}
+      {/*<Target />*/}
+      {/*<PricingSection />*/}
+      {/*<Cta />*/}
     </>
   )
 }

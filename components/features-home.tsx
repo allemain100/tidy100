@@ -3,14 +3,15 @@
 import { useState } from 'react'
 import Image from 'next/image'
 import { Transition } from '@headlessui/react'
-import FeaturesImage from '@/public/images/features-home-01.jpg'
+// import FeaturesImage from '@/public/images/features-home-01.jpg'
+import FeaturesImage from '@/public/images/768x474.svg'
 
 export default function FeaturesHome() {
 
   const [tab, setTab] = useState<number>(1)
 
   return (
-    <section className="relative">
+    <section className="relative" id="sponsors">
 
       <div className="absolute inset-0 bg-slate-100 pointer-events-none mb-64 md:mb-80" aria-hidden="true"></div>
 
@@ -19,8 +20,8 @@ export default function FeaturesHome() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12">
-            <h2 className="h2 font-playfair-display text-slate-800 mb-4">Built exclusively for you</h2>
-            <p className="text-xl text-slate-768">Excepteur s474 occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.</p>
+            <h2 className="h2 font-playfair-display text-slate-800 mb-4">Current Sponsors</h2>
+            <p className="text-xl text-slate-768">Some of our 2025 sponsors so far:</p>
           </div>
 
           {/* Section content */}
@@ -39,7 +40,7 @@ export default function FeaturesHome() {
                       <path fillOpacity=".64" fill="#5091EE" d="M29 20h3v16h-3zM35 20h1v16h-1z" />
                     </svg>
                   </div>
-                  <div className="md:text-lg leading-tight font-semibold text-slate-800">Internal Feedback</div>
+                  <div className="md:text-lg leading-tight font-semibold text-slate-800">Sponsor</div>
                 </div>
               </button>
               <button
@@ -53,7 +54,7 @@ export default function FeaturesHome() {
                       <path fill="#2174EA" d="M20 25h11v11H20z" />
                     </svg>
                   </div>
-                  <div className="md:text-lg leading-tight font-semibold text-slate-800">Internal Feedback</div>
+                  <div className="md:text-lg leading-tight font-semibold text-slate-800">Sponsor</div>
                 </div>
               </button>
               <button
@@ -69,7 +70,7 @@ export default function FeaturesHome() {
                       <path fill="#2174EA" d="M27 36l-7-7v7z" />
                     </svg>
                   </div>
-                  <div className="md:text-lg leading-tight font-semibold text-slate-800">Internal Feedback</div>
+                  <div className="md:text-lg leading-tight font-semibold text-slate-800">Sponsor</div>
                 </div>
               </button>
               <button
@@ -83,7 +84,7 @@ export default function FeaturesHome() {
                       <path d="M35 21h-8c-.6 0-1 .4-1 1v11c0 .7-.2 1.4-.6 2H33c1.7 0 3-1.3 3-3V22c0-.6-.4-1-1-1z" fill="#2174EA" />
                     </svg>
                   </div>
-                  <div className="md:text-lg leading-tight font-semibold text-slate-800">Internal Feedback</div>
+                  <div className="md:text-lg leading-tight font-semibold text-slate-800">Sponsor</div>
                 </div>
               </button>
             </div>

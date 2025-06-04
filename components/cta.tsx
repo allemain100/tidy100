@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Cta() {
   return (
-    <section className="bg-slate-100">
+    <section className="bg-slate-100" id="sponsor">
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
 
@@ -15,11 +15,11 @@ export default function Cta() {
             </div>
 
             <div className="relative">
-              <h2 className="h2 font-playfair-display text-slate-800 mb-4">Say goodbye to long queues, big updates, and <span className="text-emerald-500">confusion</span>.</h2>
-              <p className="text-xl text-slate-500 mb-8">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.</p>
+              <h2 className="h2 font-playfair-display text-slate-800 mb-4">Sponsorship <span className="text-emerald-500">Opportunities</span></h2>
+              <p className="text-xl text-slate-500 mb-8">Inquire about sponsporing the Philadelphia Cup Regatta 2025</p>
               <div>
-                <Link className="btn text-white bg-blue-600 hover:bg-blue-700 group" href="/request-demo">
-                  Request Demo <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+                <Link className="btn text-white bg-blue-600 hover:bg-blue-700 group" href="#sponsor">
+                  Sponsor Info <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
                 </Link>
               </div>
             </div>

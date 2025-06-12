@@ -2,9 +2,9 @@ import Link from 'next/link'
 import VideoThumb from '@/public/images/hero-image-01.jpg'
 import ModalVideo01 from '@/components/modal-video-01'
 import Image from "next/image";
-import HeroImage from "@/public/images/lsc-pcr-bkg.jpg"
+import HeroImage from "@/public/images/pcr25bkg.png"
 import AxpHeroThumb from '@/public/images/540x405.svg'
-import AxpHeroImage from '@/public/images/lsc-pcr-2025-color.jpg'
+import AxpHeroImage from '@/public/images/pcr25.png'
 
 export default function HeroHome() {
   return (
@@ -25,18 +25,17 @@ export default function HeroHome() {
 
             {/* Content */}
             <div className="text-center md:text-left md:min-w-[30rem]" data-aos="fade-right">
-              <h1 className="h1 font-playfair-display text-slate-100 mb-4">Philadelphia Cup Regatta 2025</h1>
-              <p className="text-xl text-slate-400 mb-8">Liberty Sailing Club is taking the helm as the organizing club, and we would love to
-                have you as part of this event.
+              <h1 className="h1 font-playfair-display text-slate-100 mb-4">2025 Philadelphia Cup Regatta</h1>
+              <p className="text-xl text-slate-400 mb-8">Join us for a day of competition and camaraderie on the Delaware River
               </p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
                 <div>
-                  <Link className="btn text-white bg-blue-600 hover:bg-blue-700 w-full group" href="#sponsor">
-                    Sponsor Info <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+                  <Link className="btn text-white bg-blue-600 hover:bg-blue-700 w-full group" href="#register">
+                    Register <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
                   </Link>
                 </div>
                 <div>
-                  <Link className="btn text-white bg-slate-700 hover:bg-slate-800 w-full" href="#details">Regatta Details</Link>
+                  <Link className="btn text-white bg-slate-700 hover:bg-slate-800 w-full" href="#details">See Details</Link>
                 </div>
               </div>
             </div>

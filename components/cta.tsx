@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Cta() {
   return (
-    <section className="bg-slate-100" id="sponsor">
+    <section className="bg-slate-100" id="register">
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
 
@@ -15,11 +15,31 @@ export default function Cta() {
             </div>
 
             <div className="relative">
-              <h2 className="h2 font-playfair-display text-slate-800 mb-4">Sponsorship <span className="text-emerald-500">Opportunities</span></h2>
-              <p className="text-xl text-slate-500 mb-8">Inquire about sponsoring the Philadelphia Cup Regatta 2025</p>
+              <h2 className="h2 font-playfair-display text-slate-800 mb-4">Register <span className="text-orange-400">Today</span></h2>
+              <p className="text-xl text-slate-500 mb-8">Register: info@philadelphiacupregatta.com</p>
               <div>
                 <Link className="btn text-white bg-blue-600 hover:bg-blue-700 group" href="#sponsor">
-                  Sponsor Info <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+                  info@philadelphiacupregatta.com <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+                </Link>
+              </div>
+            </div>
+
+            <div className="relative">
+              <h2 className="h2 font-playfair-display text-slate-800 mb-4"><br/><span className="text-orange-400">Sponsorship</span> Opportunities</h2>
+              <p className="text-xl text-slate-500 mb-8">Sponsorships: nicolefellerjohnson@gmail.com</p>
+              <div>
+                <Link className="btn text-white bg-blue-600 hover:bg-blue-700 group" href="#sponsor">
+                  nicolefellerjohnson@gmail.com <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+                </Link>
+              </div>
+            </div>
+
+            <div className="relative">
+              <h2 className="h2 font-playfair-display text-slate-800 mb-4"><br/>Volunteer</h2>
+              <p className="text-xl text-slate-500 mb-8">Volunteer: loic.rene.leguen@gmail.com</p>
+              <div>
+                <Link className="btn text-white bg-blue-600 hover:bg-blue-700 group" href="#sponsor">
+                  loic.rene.leguen@gmail.com <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
                 </Link>
               </div>
             </div>

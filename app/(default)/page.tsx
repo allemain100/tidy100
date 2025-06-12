@@ -18,7 +18,7 @@ export default function Home() {
       <Hero />
       <Features02 />
       <Cta />
-      <Features />
+      {/*<Features />*/}
 
       <Features03 />
 

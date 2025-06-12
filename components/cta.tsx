@@ -26,20 +26,20 @@ export default function Cta() {
 
             <div className="relative">
               <h2 className="h2 font-playfair-display text-slate-800 mb-4"><br/><span className="text-orange-400">Sponsorship</span> Opportunities</h2>
-              <p className="text-xl text-slate-500 mb-8">Sponsorships: nicolefellerjohnson@gmail.com</p>
+              <p className="text-xl text-slate-500 mb-8">Sponsorships: sponsorship@philadelphiacupregatta.com</p>
               <div>
                 <Link className="btn text-white bg-blue-600 hover:bg-blue-700 group" href="#sponsor">
-                  nicolefellerjohnson@gmail.com <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+                  sponsorship@philadelphiacupregatta.com <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
                 </Link>
               </div>
             </div>
 
             <div className="relative">
               <h2 className="h2 font-playfair-display text-slate-800 mb-4"><br/>Volunteer</h2>
-              <p className="text-xl text-slate-500 mb-8">Volunteer: loic.rene.leguen@gmail.com</p>
+              <p className="text-xl text-slate-500 mb-8">Volunteer: info@philadelphiacupregatta.com</p>
               <div>
                 <Link className="btn text-white bg-blue-600 hover:bg-blue-700 group" href="#sponsor">
-                  loic.rene.leguen@gmail.com <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+                  info@philadelphiacupregatta.com <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
                 </Link>
               </div>
             </div>

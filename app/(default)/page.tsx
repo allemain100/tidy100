@@ -11,6 +11,7 @@ import Features03 from '@/components/features-home-03'
 import Target from '@/components/target'
 import PricingSection from '@/components/pricing'
 import Cta from '@/components/cta'
+import BeholdFeed from '@/components/BeholdFeed';
 
 export default function Home() {
   return (
@@ -19,7 +20,7 @@ export default function Home() {
       <Features02 />
       <Cta />
       {/*<Features />*/}
-
+      <BeholdFeed />
       <Features03 />
 
 
